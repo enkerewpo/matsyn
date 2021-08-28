@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\bin\Debug\validator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\VST3\Debug\mathsynth.vst3\Contents\x86_64-win\mathsynth.vst3</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

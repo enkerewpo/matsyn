@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\source\rys_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\resource\rys_editor.uidesc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F9B72626-D005-32AD-BEA8-69951619D645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A5356E89-97A4-3F42-B18C-B49C03B1F2F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

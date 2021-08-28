@@ -1,12 +1,6 @@
-﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/CMakeLists.txt
-  rys_processor.cpp
-  rys_controller.cpp
-  rys_entry.cpp
-  dllmain.cpp
-  [SMTG] Copied resource/rys_editor.uidesc to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources
+﻿  [SMTG] Copied resource/rys_editor.uidesc to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources/Snapshots
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot_2.0x.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources/Snapshots
-     Creating library E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/lib/Debug/mathsynth.lib and object E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/lib/Debug/mathsynth.exp
   mathsynth.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\VST3\Debug\mathsynth.vst3\Contents\x86_64-win\mathsynth.vst3
   [SMTG] Validator started...
   * Loading module...
@@ -299,7 +293,6 @@
   -------------------------------------------------------------
   [SMTG] Validator finished.
   [SMTG] Delete previous link...
-  The system cannot find the file specified.
   Could Not Find C:\Program Files\Common Files\VST3\mathsynth.vst3
   [SMTG] Creation of the new link...
   symbolic link created for C:\Program Files\Common Files\VST3\mathsynth.vst3 <<===>> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\VST3\Debug\mathsynth.vst3

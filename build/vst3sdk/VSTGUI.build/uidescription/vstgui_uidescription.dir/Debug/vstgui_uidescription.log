@@ -1,13 +1,5 @@
-﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/vstgui4/vstgui/uidescription/CMakeLists.txt
-  compresseduidescription.cpp
+﻿  compresseduidescription.cpp
   cstream.cpp
-  uiattributes.cpp
-  uicontentprovider.cpp
-  uidescription.cpp
-  uiviewcreator.cpp
-  uiviewfactory.cpp
-  uiviewswitchcontainer.cpp
-  xmlparser.cpp
   uidesclist.cpp
   uijsonpersistence.cpp
   uinode.cpp
@@ -35,6 +27,12 @@
   uitemplatesettingscontroller.cpp
   uiundomanager.cpp
   uiviewcreatecontroller.cpp
+  uiattributes.cpp
+  uicontentprovider.cpp
+  uidescription.cpp
+  uiviewcreator.cpp
+  uiviewfactory.cpp
+  uiviewswitchcontainer.cpp
   animationsplashscreencreator.cpp
   animknobcreator.cpp
   checkboxcreator.cpp
@@ -68,4 +66,5 @@
   viewcreator.cpp
   vumetercreator.cpp
   xypadcreator.cpp
+  xmlparser.cpp
   vstgui_uidescription.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\lib\Debug\vstgui_uidescription.lib

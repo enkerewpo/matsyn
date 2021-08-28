@@ -1,5 +1,4 @@
-﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/vstgui4/vstgui/lib/CMakeLists.txt
-  animations.cpp
+﻿  animations.cpp
   animator.cpp
   timingfunctions.cpp
   cbitmap.cpp
@@ -55,20 +54,18 @@
   cvstguitimer.cpp
   genericstringlistdatabrowsersource.cpp
   pixelbuffer.cpp
-  platformfactory.cpp
   fileresourceinputstream.cpp
   genericoptionmenu.cpp
   generictextedit.cpp
-  vstguidebug.cpp
-  vstguiinit.cpp
+  platformfactory.cpp
   d2dbitmap.cpp
   d2ddrawcontext.cpp
   d2dfont.cpp
   d2dgraphicspath.cpp
   win32datapackage.cpp
   win32dragging.cpp
-E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\vstgui4\vstgui\lib\cview.cpp(1010,24): warning C4996: 'VSTGUI::Animation::Animator::addAnimation': was declared deprecated
   win32factory.cpp
+E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\vstgui4\vstgui\lib\cview.cpp(1010,24): warning C4996: 'VSTGUI::Animation::Animator::addAnimation': was declared deprecated
   win32frame.cpp
   win32openglview.cpp
   win32optionmenu.cpp
@@ -78,4 +75,6 @@ E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\vstgui4\vstgui\li
   winfileselector.cpp
   winstring.cpp
   wintimer.cpp
+  vstguidebug.cpp
+  vstguiinit.cpp
   vstgui.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\lib\Debug\vstgui.lib

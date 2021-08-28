@@ -3,4 +3,4 @@
 
 
 
-rys 2021 enkerewpo@hotmail.com
+rys<  © 2021 enkerewpo@hotmail.com

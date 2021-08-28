@@ -1,6 +1,8 @@
 ﻿  [SMTG] Copied resource/rys_editor.uidesc to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources/Snapshots
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot_2.0x.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/VST3/Debug/mathsynth.vst3/Contents/Resources/Snapshots
+  LINK : E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\VST3\Debug\mathsynth.vst3\Contents\x86_64-win\mathsynth.vst3 not found or not built by the last incremental link; performing full link
+     Creating library E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/lib/Debug/mathsynth.lib and object E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/build/lib/Debug/mathsynth.exp
   mathsynth.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\VST3\Debug\mathsynth.vst3\Contents\x86_64-win\mathsynth.vst3
   [SMTG] Validator started...
   * Loading module...

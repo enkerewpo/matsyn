@@ -1,18 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vstgui-ui-description version="1">
-	<fonts>
-	</fonts>
-	<colors>
-	</colors>
-	<template background-color="~ BlackCColor" background-color-draw-style="filled and stroked" class="CViewContainer" mouse-enabled="true" name="view" opacity="1" origin="0, 0" size="300, 300" transparent="false" wants-focus="false"/>
-	<custom>
-		<attributes name="FocusDrawing"/>
-		<attributes Path="E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/mathsynth/resource/rys_editor.uidesc" name="VST3Editor"/>
-		<attributes Grids="1x 1,5x 5,10x 10,12x 12,15x 15" name="UIGridController"/>
-		<attributes SelectedTemplate="view" name="UITemplateController"/>
-		<attributes EditViewScale="1" EditorSize="0, 0, 500, 545" SplitViewSize_0_0="0.7495183044315992804129678006574977189302" SplitViewSize_0_1="0.2119460500963391003104163701209472492337" SplitViewSize_1_0="0.4797687861271676124097496085596503689885" SplitViewSize_1_1="0.5105973025048169411377330106915906071663" SplitViewSize_2_0="0.6400000000000000133226762955018784850836" SplitViewSize_2_1="0.3499999999999999777955395074968691915274" TabSwitchValue="0" Version="1" name="UIEditController"/>
-		<attributes name="UIAttributesController"/>
-		<attributes SelectedRow="7" name="UIViewCreatorDataSource"/>
-	</custom>
-	<bitmaps/>
-</vstgui-ui-description>
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {},
+		"fonts": {},
+		"colors": {},
+		"gradients": {},
+		"control-tags": {},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "E:\\vst3_sdk\\vst-sdk_3.7.2_build-28_2021-03-30\\VST_SDK\\VST3_SDK\\generator\\mathsynth\\resource\\rys_editor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 1820, 984",
+				"SplitViewSize_0_0": "0.8643006263048016446504107079817913472652",
+				"SplitViewSize_0_1": "0.1148225469728601233487808030986343510449",
+				"SplitViewSize_1_0": "0.4890396659707724191790134682378266006708",
+				"SplitViewSize_1_1": "0.5057411273486429603707392743672244250774",
+				"SplitViewSize_2_0": "0.7741758241758242009566970409650821238756",
+				"SplitViewSize_2_1": "0.2230769230769230893063337362036691047251",
+				"TabSwitchValue": "0",
+				"Version": "1"
+			},
+			"UIAttributesController": {},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "12"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIColorsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIGradientsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIFontsDataSource": {
+				"SelectedRow": "-1"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "~ WhiteCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "840, 540",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CMultiLineTextLabel": {
+						"attributes": {
+							"auto-height": "false",
+							"back-color": "~ TransparentCColor",
+							"background-offset": "0, 0",
+							"class": "CMultiLineTextLabel",
+							"default-value": "0.5",
+							"font": "~ NormalFontVeryBig",
+							"font-antialias": "true",
+							"font-color": "~ BlackCColor",
+							"frame-color": "~ TransparentCColor",
+							"frame-width": "1",
+							"line-layout": "clip",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "70, 40",
+							"round-rect-radius": "6",
+							"shadow-color": "~ RedCColor",
+							"size": "180, 30.3491",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "mathsynth",
+							"transparent": "false",
+							"value-precision": "2",
+							"vertical-centered": "true",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					}
+				}
+			}
+		}
+	}
+}

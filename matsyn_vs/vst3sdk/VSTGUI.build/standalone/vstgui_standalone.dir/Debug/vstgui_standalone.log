@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/vstgui4/vstgui/standalone/CMakeLists.txt
+  application.cpp
+  genericalertbox.cpp
+  shareduiresources.cpp
+  uidescriptionwindowcontroller.cpp
+  window.cpp
+  value.cpp
+  win32application.cpp
+  win32async.cpp
+  win32commondirectories.cpp
+  win32menu.cpp
+  win32preference.cpp
+  win32window.cpp
+  vstgui_standalone.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\matsyn\matsyn_vs\lib\Debug\vstgui_standalone.lib

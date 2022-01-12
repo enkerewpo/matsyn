@@ -9,18 +9,18 @@
 namespace rys {
 
 //------------------------------------------------------------------------
-//  mathsynthProcessor
+//  matsynProcessor
 //------------------------------------------------------------------------
-class mathsynthProcessor : public Steinberg::Vst::AudioEffect
+class matsynProcessor : public Steinberg::Vst::AudioEffect
 {
 public:
-	mathsynthProcessor ();
-	~mathsynthProcessor () SMTG_OVERRIDE;
+	matsynProcessor ();
+	~matsynProcessor () SMTG_OVERRIDE;
 
     // Create function
 	static Steinberg::FUnknown* createInstance (void* /*context*/) 
 	{ 
-		return (Steinberg::Vst::IAudioProcessor*)new mathsynthProcessor; 
+		return (Steinberg::Vst::IAudioProcessor*)new matsynProcessor; 
 	}
 
 	//--- ---------------------------------------------------------------------

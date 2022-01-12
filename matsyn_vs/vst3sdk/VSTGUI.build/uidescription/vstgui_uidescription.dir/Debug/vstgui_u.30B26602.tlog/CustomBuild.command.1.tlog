@@ -1,0 +1,10 @@
+^E:\VST3_SDK\VST-SDK_3.7.2_BUILD-28_2021-03-30\VST_SDK\VST3_SDK\VSTGUI4\VSTGUI\UIDESCRIPTION\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn -BE:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs --check-stamp-file E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/vst3sdk/VSTGUI.build/uidescription/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

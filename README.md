@@ -1,4 +1,4 @@
-# mathsynth
+# matsyn
  advanced software synthesizer
 
 

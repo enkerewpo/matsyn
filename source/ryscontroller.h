@@ -9,19 +9,19 @@
 namespace rys {
 
 //------------------------------------------------------------------------
-//  mathsynthController
+//  matsynController
 //------------------------------------------------------------------------
-class mathsynthController : public Steinberg::Vst::EditControllerEx1
+class matsynController : public Steinberg::Vst::EditControllerEx1
 {
 public:
 //------------------------------------------------------------------------
-	mathsynthController () = default;
-	~mathsynthController () SMTG_OVERRIDE = default;
+	matsynController () = default;
+	~matsynController () SMTG_OVERRIDE = default;
 
     // Create function
 	static Steinberg::FUnknown* createInstance (void* /*context*/)
 	{
-		return (Steinberg::Vst::IEditController*)new mathsynthController;
+		return (Steinberg::Vst::IEditController*)new matsynController;
 	}
 
 	// IPluginBase

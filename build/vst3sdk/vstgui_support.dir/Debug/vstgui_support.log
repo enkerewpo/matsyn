@@ -1,6 +1,0 @@
-﻿  vstgui_win32_bundle_support.cpp
-  vstguieditor.cpp
-  vst3editor.cpp
-  vst3groupcontroller.cpp
-  vst3padcontroller.cpp
-  vstgui_support.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\mathsynth\build\lib\Debug\vstgui_support.lib

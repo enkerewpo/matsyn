@@ -1,0 +1,16 @@
+﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/public.sdk/CMakeLists.txt
+  pluginview.cpp
+  pluginfactory.cpp
+  moduleinit.cpp
+  stringconvert.cpp
+  vst2persistence.cpp
+  vstaudioeffect.cpp
+  vstbus.cpp
+  vstcomponent.cpp
+  vstcomponentbase.cpp
+  vsteditcontroller.cpp
+  vstinitiids.cpp
+  vstnoteexpressiontypes.cpp
+  vstparameters.cpp
+  vstrepresentation.cpp
+  sdk.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\matsyn\matsyn_vs\lib\Debug\sdk.lib

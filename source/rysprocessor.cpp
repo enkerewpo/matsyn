@@ -12,20 +12,20 @@ using namespace Steinberg;
 
 namespace rys {
 //------------------------------------------------------------------------
-// mathsynthProcessor
+// matsynProcessor
 //------------------------------------------------------------------------
-mathsynthProcessor::mathsynthProcessor ()
+matsynProcessor::matsynProcessor ()
 {
 	//--- set the wanted controller for our processor
-	setControllerClass (kmathsynthControllerUID);
+	setControllerClass (kmatsynControllerUID);
 }
 
 //------------------------------------------------------------------------
-mathsynthProcessor::~mathsynthProcessor ()
+matsynProcessor::~matsynProcessor ()
 {}
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::initialize (FUnknown* context)
+tresult PLUGIN_API matsynProcessor::initialize (FUnknown* context)
 {
 	// Here the Plug-in will be instanciated
 	
@@ -48,7 +48,7 @@ tresult PLUGIN_API mathsynthProcessor::initialize (FUnknown* context)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::terminate ()
+tresult PLUGIN_API matsynProcessor::terminate ()
 {
 	// Here the Plug-in will be de-instanciated, last possibility to remove some memory!
 	
@@ -57,14 +57,14 @@ tresult PLUGIN_API mathsynthProcessor::terminate ()
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::setActive (TBool state)
+tresult PLUGIN_API matsynProcessor::setActive (TBool state)
 {
 	//--- called when the Plug-in is enable/disable (On/Off) -----
 	return AudioEffect::setActive (state);
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::process (Vst::ProcessData& data)
+tresult PLUGIN_API matsynProcessor::process (Vst::ProcessData& data)
 {
 	//--- First : Read inputs parameter changes-----------
 
@@ -91,14 +91,14 @@ tresult PLUGIN_API mathsynthProcessor::process (Vst::ProcessData& data)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::setupProcessing (Vst::ProcessSetup& newSetup)
+tresult PLUGIN_API matsynProcessor::setupProcessing (Vst::ProcessSetup& newSetup)
 {
 	//--- called before any processing ----
 	return AudioEffect::setupProcessing (newSetup);
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::canProcessSampleSize (int32 symbolicSampleSize)
+tresult PLUGIN_API matsynProcessor::canProcessSampleSize (int32 symbolicSampleSize)
 {
 	// by default kSample32 is supported
 	if (symbolicSampleSize == Vst::kSample32)
@@ -112,7 +112,7 @@ tresult PLUGIN_API mathsynthProcessor::canProcessSampleSize (int32 symbolicSampl
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::setState (IBStream* state)
+tresult PLUGIN_API matsynProcessor::setState (IBStream* state)
 {
 	// called when we load a preset, the model has to be reloaded
 	IBStreamer streamer (state, kLittleEndian);
@@ -121,7 +121,7 @@ tresult PLUGIN_API mathsynthProcessor::setState (IBStream* state)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthProcessor::getState (IBStream* state)
+tresult PLUGIN_API matsynProcessor::getState (IBStream* state)
 {
 	// here we need to save the model
 	IBStreamer streamer (state, kLittleEndian);

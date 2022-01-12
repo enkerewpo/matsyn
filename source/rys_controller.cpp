@@ -11,9 +11,9 @@ using namespace Steinberg;
 namespace rys {
 
 //------------------------------------------------------------------------
-// mathsynthController Implementation
+// matsynController Implementation
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::initialize (FUnknown* context)
+tresult PLUGIN_API matsynController::initialize (FUnknown* context)
 {
 	// Here the Plug-in will be instanciated
 
@@ -30,7 +30,7 @@ tresult PLUGIN_API mathsynthController::initialize (FUnknown* context)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::terminate ()
+tresult PLUGIN_API matsynController::terminate ()
 {
 	// Here the Plug-in will be de-instanciated, last possibility to remove some memory!
 
@@ -39,7 +39,7 @@ tresult PLUGIN_API mathsynthController::terminate ()
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::setComponentState (IBStream* state)
+tresult PLUGIN_API matsynController::setComponentState (IBStream* state)
 {
 	// Here you get the state of the component (Processor part)
 	if (!state)
@@ -49,7 +49,7 @@ tresult PLUGIN_API mathsynthController::setComponentState (IBStream* state)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::setState (IBStream* state)
+tresult PLUGIN_API matsynController::setState (IBStream* state)
 {
 	// Here you get the state of the controller
 
@@ -57,7 +57,7 @@ tresult PLUGIN_API mathsynthController::setState (IBStream* state)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::getState (IBStream* state)
+tresult PLUGIN_API matsynController::getState (IBStream* state)
 {
 	// Here you are asked to deliver the state of the controller (if needed)
 	// Note: the real state of your plug-in is saved in the processor
@@ -66,7 +66,7 @@ tresult PLUGIN_API mathsynthController::getState (IBStream* state)
 }
 
 //------------------------------------------------------------------------
-IPlugView* PLUGIN_API mathsynthController::createView (FIDString name)
+IPlugView* PLUGIN_API matsynController::createView (FIDString name)
 {
 	// Here the Host wants to open your editor (if you have one)
 	if (FIDStringsEqual (name, Vst::ViewType::kEditor))
@@ -79,7 +79,7 @@ IPlugView* PLUGIN_API mathsynthController::createView (FIDString name)
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::setParamNormalized (Vst::ParamID tag, Vst::ParamValue value)
+tresult PLUGIN_API matsynController::setParamNormalized (Vst::ParamID tag, Vst::ParamValue value)
 {
 	// called by host to update your parameters
 	tresult result = EditControllerEx1::setParamNormalized (tag, value);
@@ -87,7 +87,7 @@ tresult PLUGIN_API mathsynthController::setParamNormalized (Vst::ParamID tag, Vs
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::getParamStringByValue (Vst::ParamID tag, Vst::ParamValue valueNormalized, Vst::String128 string)
+tresult PLUGIN_API matsynController::getParamStringByValue (Vst::ParamID tag, Vst::ParamValue valueNormalized, Vst::String128 string)
 {
 	// called by host to get a string for given normalized value of a specific parameter
 	// (without having to set the value!)
@@ -95,7 +95,7 @@ tresult PLUGIN_API mathsynthController::getParamStringByValue (Vst::ParamID tag,
 }
 
 //------------------------------------------------------------------------
-tresult PLUGIN_API mathsynthController::getParamValueByString (Vst::ParamID tag, Vst::TChar* string, Vst::ParamValue& valueNormalized)
+tresult PLUGIN_API matsynController::getParamValueByString (Vst::ParamID tag, Vst::TChar* string, Vst::ParamValue& valueNormalized)
 {
 	// called by host to get a normalized value from a string representation of a specific parameter
 	// (without having to set the value!)

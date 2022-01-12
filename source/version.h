@@ -25,11 +25,11 @@
 // Version without build number (example "1.0.3")
 #define VERSION_STR MAJOR_VERSION_STR "." SUB_VERSION_STR "." RELEASE_NUMBER_STR
 
-#define stringOriginalFilename	"mathsynth.vst3"
+#define stringOriginalFilename	"matsyn.vst3"
 #if SMTG_PLATFORM_64
-#define stringFileDescription	"mathsynth VST3 (64Bit)"
+#define stringFileDescription	"matsyn VST3 (64Bit)"
 #else
-#define stringFileDescription	"mathsynth VST3"
+#define stringFileDescription	"matsyn VST3"
 #endif
 #define stringCompanyName		"rys\0"
 #define stringLegalCopyright	"Copyright(c) 2021 rys."

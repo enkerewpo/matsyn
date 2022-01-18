@@ -1,12 +1,7 @@
-﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/CMakeLists.txt
-  rys_processor.cpp
-  rys_controller.cpp
-  rys_entry.cpp
-  dllmain.cpp
+﻿  rys_entry.cpp
   [SMTG] Copied resource/rys_editor.uidesc to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/VST3/Debug/matsyn.vst3/Contents/Resources
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/VST3/Debug/matsyn.vst3/Contents/Resources/Snapshots
   [SMTG] Copied resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot_2.0x.png to E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/VST3/Debug/matsyn.vst3/Contents/Resources/Snapshots
-     Creating library E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/lib/Debug/matsyn.lib and object E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/generator/matsyn/matsyn_vs/lib/Debug/matsyn.exp
   matsyn.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\matsyn\matsyn_vs\VST3\Debug\matsyn.vst3\Contents\x86_64-win\matsyn.vst3
   [SMTG] Validator started...
   * Loading module...

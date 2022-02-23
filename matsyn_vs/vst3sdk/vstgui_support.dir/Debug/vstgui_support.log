@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/CMakeLists.txt
+  vst3groupcontroller.cpp
+  vst3padcontroller.cpp
+  vst3editor.cpp
+  vstguieditor.cpp
+  vstgui_win32_bundle_support.cpp
+  vstgui_support.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\matsyn\matsyn_vs\lib\Debug\vstgui_support.lib

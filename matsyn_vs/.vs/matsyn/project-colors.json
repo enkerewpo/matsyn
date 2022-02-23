@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a13a107-06a3-3961-a2e6-5777607b4275": {
+      "ProjectGuid": "6a13a107-06a3-3961-a2e6-5777607b4275",
+      "DisplayName": "matsyn",
+      "ColorIndex": 0
+    },
+    "ab9d89d1-f20b-471f-9a7a-eb3676eb63fc": {
+      "ProjectGuid": "ab9d89d1-f20b-471f-9a7a-eb3676eb63fc",
+      "DisplayName": "lib_wavfile",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

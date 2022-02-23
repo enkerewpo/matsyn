@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/public.sdk/samples/vst-hosting/inspectorapp/CMakeLists.txt
+  app.cpp
+  window.cpp
+  coreiids.cpp
+  module.cpp
+  stringconvert.cpp
+  module_win32.cpp
+  VST3Inspector.vcxproj -> E:\vst3_sdk\vst-sdk_3.7.2_build-28_2021-03-30\VST_SDK\VST3_SDK\generator\matsyn\matsyn_vs\bin\Debug\VST3Inspector\VST3Inspector.exe

@@ -4,7 +4,8 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
               companyName="rys" companyCopyright="2021-2022" companyWebsite="enkerewpo.top"
               companyEmail="enkerewpo@hotmail.com" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
-              splashScreenColour="Light" version="0.0.1" cppLanguageStandard="20">
+              splashScreenColour="Light" version="0.0.1" cppLanguageStandard="20"
+              headerPath="E:\ASIO_SDK\common">
   <MAINGROUP id="sVezLL" name="matsyn">
     <GROUP id="{E1F49D82-DBB8-EA6A-39CC-A04956271652}" name="Source">
       <FILE id="h5t8UL" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -16,7 +17,8 @@
       <FILE id="x64qkb" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
-  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_ASIO="1" JUCE_WASAPI="1" JUCE_DIRECTSOUND="1"/>
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>

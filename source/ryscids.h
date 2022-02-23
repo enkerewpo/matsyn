@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------
-// Copyright(c) 2021 rys.
+// Copyright(c) 2022 rys.
 //------------------------------------------------------------------------
 
 #pragma once
@@ -9,8 +9,8 @@
 
 namespace rys {
 //------------------------------------------------------------------------
-static const Steinberg::FUID kmatsynProcessorUID (0x44987C92, 0x59B75667, 0x9F9498E2, 0x0A742689);
-static const Steinberg::FUID kmatsynControllerUID (0xF59EAEEE, 0xB82054F7, 0x957BC99F, 0x091E6501);
+static const Steinberg::FUID kmatsynProcessorUID (0x9622B1A4, 0x6C0550A4, 0xA7D93578, 0xE4C69140);
+static const Steinberg::FUID kmatsynControllerUID (0xFFD56887, 0x337E5969, 0xB82590D3, 0xB855CF0B);
 
 #define matsynVST3Category "Instrument"
 

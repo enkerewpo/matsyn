@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14.0)
 
-set(vst3sdk_SOURCE_DIR E:/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK)
+set(vst3sdk_SOURCE_DIR E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK)
 if(NOT vst3sdk_SOURCE_DIR)
     message(FATAL_ERROR "Path to VST3 SDK is empty!")
 endif()
@@ -14,30 +14,30 @@ smtg_enable_vst3_sdk()
 
 smtg_add_vst3plugin(matsyn     
     source/version.h
-    source/rys_cids.h
-    source/rys_processor.h
-    source/rys_processor.cpp
-    source/rys_controller.h
-    source/rys_controller.cpp
-    source/rys_entry.cpp
+    source/ryscids.h
+    source/rysprocessor.h
+    source/rysprocessor.cpp
+    source/ryscontroller.h
+    source/ryscontroller.cpp
+    source/rysentry.cpp
 )
 
 #- VSTGUI Wanted ----
 if(SMTG_ADD_VSTGUI)
     target_sources(matsyn
         PRIVATE
-            resource/rys_editor.uidesc
+            resource/ryseditor.uidesc
     )
     target_link_libraries(matsyn
         PRIVATE
             vstgui_support
     )
-    smtg_add_vst3_resource(matsyn "resource/rys_editor.uidesc")
+    smtg_add_vst3_resource(matsyn "resource/ryseditor.uidesc")
 endif()
 # -------------------
 
-smtg_add_vst3_snapshot(matsyn resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot.png)
-smtg_add_vst3_snapshot(matsyn resource/DA1D0743FA2B5A1D9B752478B829C861_snapshot_2.0x.png)
+smtg_add_vst3_snapshot(matsyn resource/9622B1A46C0550A4A7D93578E4C69140_snapshot.png)
+smtg_add_vst3_snapshot(matsyn resource/9622B1A46C0550A4A7D93578E4C69140_snapshot_2.0x.png)
 
 target_link_libraries(matsyn
     PRIVATE

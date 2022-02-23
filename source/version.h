@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------
-// Copyright(c) 2021 rys.
+// Copyright(c) 2022 rys.
 //------------------------------------------------------------------------
 
 #pragma once
@@ -32,5 +32,5 @@
 #define stringFileDescription	"matsyn VST3"
 #endif
 #define stringCompanyName		"rys\0"
-#define stringLegalCopyright	"Copyright(c) 2021 rys."
+#define stringLegalCopyright	"Copyright(c) 2022 rys."
 #define stringLegalTrademarks	"VST is a trademark of Steinberg Media Technologies GmbH"

@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakePrintHelpers.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/CMakeLists.txt
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_AAXSupport.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddCommonOptions.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddSMTGLibrary.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddVST3Library.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_AddVST3Options.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_Bundle.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_CodeSign.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_CoreAudioSupport.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_CustomModuleTarget.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_DetectPlatform.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_ExportedSymbols.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_Global.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_PlatformIOS.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_PlatformToolset.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_Platform_Windows.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_PrefixHeader.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_SetDebugExecutable.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_SetupVST3LibraryDefaultPath.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_UniversalBinary.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_VST3_SDK.cmake
+E:/OneDrive/work/music/vst3_sdk/vst-sdk_3.7.2_build-28_2021-03-30/VST_SDK/VST3_SDK/cmake/modules/SMTG_VstGuiSupport.cmake
